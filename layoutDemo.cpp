@@ -110,26 +110,33 @@ void layoutDemo0(void)
     winMain->resize(800,480);
 
     //创建水平箱式布局器
-    QHBoxLayout *hlayoutMain = new QHBoxLayout();
+ //   QHBoxLayout *hlayoutMain = new QHBoxLayout();
 
     //布局器添加按钮
     //根据添加顺序排序
-    hlayoutMain->addWidget(new QPushButton("Replay"));
-    hlayoutMain->addWidget(new QPushButton("Login"));
-    hlayoutMain->addWidget(new QPushButton("Config"));
+   // hlayoutMain->addWidget(new QPushButton("Replay"));
+  //  hlayoutMain->addWidget(new QPushButton("Login"));
+   // hlayoutMain->addWidget(new QPushButton("Config"));
 
     //创建垂直箱式布局器
     QVBoxLayout *vlayoutMain = new QVBoxLayout();
 
     //布局器添加按钮
-    vlayoutMain->addWidget(new QPushButton("Replay"));
-    vlayoutMain->addWidget(new QPushButton("Login"));
-    vlayoutMain->addWidget(new QPushButton("Config"));
+    vlayoutMain->addWidget(new QPushButton("董汶陇 "));
+    vlayoutMain->addWidget(new QPushButton("郭伦壹"));
+    vlayoutMain->addWidget(new QPushButton("胡逸凡"));
+    vlayoutMain->addWidget(new QPushButton("陈一鸣"));
+    vlayoutMain->addWidget(new QPushButton("克吉力图"));
+    vlayoutMain->addWidget(new QPushButton("师杰"));
+    vlayoutMain->addWidget(new QPushButton("郝琳琳"));
+    vlayoutMain->addWidget(new QPushButton("火箭团队！"));
+
+
 
     //创建水平箱式布局器
     QVBoxLayout *layoutMain = new QVBoxLayout();
     layoutMain->addLayout(vlayoutMain);
-    layoutMain->addLayout(hlayoutMain);
+   // layoutMain->addLayout(hlayoutMain);
 
     //把布局器应用到窗口
     winMain->setLayout(layoutMain);
