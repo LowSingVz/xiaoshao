@@ -97,6 +97,13 @@ void MainWindow::slotReceiveDa2(QByteArray ba)
 
 }
 
+<<<<<<< HEAD
+=======
+void MainWindow::on_pushButton_clicked()
+{
+
+}
+>>>>>>> 006607df4136803cafd392086a2f1df4879a5fea
 
 
 

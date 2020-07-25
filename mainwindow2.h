@@ -24,10 +24,13 @@ private slots:
 
        void on_pushButton_clicked();
 
+<<<<<<< HEAD
        void on_pushButton_2_clicked();
 
        void on_pushButton_3_clicked();
 
+=======
+>>>>>>> 006607df4136803cafd392086a2f1df4879a5fea
 private:
     Ui::MainWindow2 *ui;
 

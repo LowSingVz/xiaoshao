@@ -13,38 +13,62 @@
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
+<<<<<<< HEAD
   <property name="styleSheet">
    <string notr="true">font 20pt '微软雅黑'</string>
   </property>
+=======
+>>>>>>> 006607df4136803cafd392086a2f1df4879a5fea
   <widget class="QWidget" name="centralwidget">
    <widget class="QTextEdit" name="textEdit_1_1">
     <property name="geometry">
      <rect>
+<<<<<<< HEAD
       <x>140</x>
       <y>120</y>
       <width>531</width>
       <height>251</height>
+=======
+      <x>450</x>
+      <y>140</y>
+      <width>201</width>
+      <height>211</height>
+>>>>>>> 006607df4136803cafd392086a2f1df4879a5fea
      </rect>
     </property>
    </widget>
    <widget class="QLineEdit" name="lineEdit_1_1">
     <property name="geometry">
      <rect>
+<<<<<<< HEAD
       <x>60</x>
       <y>430</y>
+=======
+      <x>90</x>
+      <y>160</y>
+>>>>>>> 006607df4136803cafd392086a2f1df4879a5fea
       <width>113</width>
       <height>25</height>
      </rect>
     </property>
     <property name="text">
+<<<<<<< HEAD
      <string>deviceID:1</string>
+=======
+     <string>line</string>
+>>>>>>> 006607df4136803cafd392086a2f1df4879a5fea
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton1">
     <property name="geometry">
      <rect>
+<<<<<<< HEAD
       <x>60</x>
       <y>480</y>
+=======
+      <x>130</x>
+      <y>290</y>
+>>>>>>> 006607df4136803cafd392086a2f1df4879a5fea
       <width>112</width>
       <height>34</height>
      </rect>
@@ -53,6 +77,7 @@
      <string>send</string>
     </property>
    </widget>
+<<<<<<< HEAD
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
@@ -161,6 +186,8 @@
      <string>doctorID:3</string>
     </property>
    </widget>
+=======
+>>>>>>> 006607df4136803cafd392086a2f1df4879a5fea
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">

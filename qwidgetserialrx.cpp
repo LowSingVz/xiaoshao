@@ -113,7 +113,11 @@ void QWidgetSerialRx::rxDataHandle(unsigned char data)
         emit ecgDataSignal(ecg1);
 
         //数据打印，调试用
+<<<<<<< HEAD
         qDebug("ecgTx:********************by火箭团队");
+=======
+        qDebug("ecgTx:********************by董汶陇");
+>>>>>>> 006607df4136803cafd392086a2f1df4879a5fea
         qDebug()<<"ecg1"<<ecg1<<"ecg2"<<ecg2<<"ecg3"<<ecg3;
 
         //发出数据用于显示

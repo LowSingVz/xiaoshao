@@ -20,7 +20,10 @@ public:
     int serialInit(void);
     void sendEcgPkg();
     unsigned int getEcg2Data();
+<<<<<<< HEAD
     void xinlvjisuan();
+=======
+>>>>>>> 006607df4136803cafd392086a2f1df4879a5fea
 
 signals:
 

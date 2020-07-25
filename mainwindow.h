@@ -28,7 +28,11 @@ private slots:
         void slotReceiveDa2(QByteArray ba);
 
 
+<<<<<<< HEAD
         //void on_pushButton_clicked();
+=======
+        void on_pushButton_clicked();
+>>>>>>> 006607df4136803cafd392086a2f1df4879a5fea
 
         void on_pushButton_2_clicked();
         void tcpNewnewConnect();

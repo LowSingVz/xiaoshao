@@ -34,11 +34,14 @@ private slots:
 
     //void on_pushButton_clicked();
 
+<<<<<<< HEAD
     void on_pushButton_clicked();
   //  void tcpReadyRead2();
 
     void on_pushButton_2_clicked();
 
+=======
+>>>>>>> 006607df4136803cafd392086a2f1df4879a5fea
 private:
     Ui::MainWindow1 *ui;
   QTcpSocket *mSocket;

@@ -154,8 +154,12 @@ QWidgetSerialTx::QWidgetSerialTx(QWidget *parent) : QWidget(parent)
     // 定时器溢出信号与发送ecg数据包函数关联
     connect(this->timer, &QTimer::timeout, this, &QWidgetSerialTx::sendEcgPkg);
     // 启动定时器
+<<<<<<< HEAD
   //  QWidgetSerialTx xinlvjisuan();
     this->timer->start(50); //调试用500ms，正常使用2ms
+=======
+    this->timer->start(500); //调试用500ms，正常使用2ms
+>>>>>>> 006607df4136803cafd392086a2f1df4879a5fea
 }
 
 unsigned int QWidgetSerialTx::getEcg2Data()

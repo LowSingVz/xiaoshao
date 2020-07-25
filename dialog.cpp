@@ -109,6 +109,7 @@ void MainWindow1::on_pushButton1_clicked()
 }
 
 
+<<<<<<< HEAD
 
 
 
@@ -130,3 +131,5 @@ void MainWindow1::on_pushButton_2_clicked()
         mSocket->write(ui->lineEdit_1_3->text().toLatin1());
 
 }
+=======
+>>>>>>> 006607df4136803cafd392086a2f1df4879a5fea

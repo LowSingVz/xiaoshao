@@ -11,7 +11,11 @@ MainWindow2::MainWindow2(QWidget *parent)
     mTcpServer->setMaxPendingConnections(1);//允许最大连接数
     connect(mTcpServer, SIGNAL(newConnection()), this, SLOT(tcpNewConnection()));
 
+<<<<<<< HEAD
     mTcpServer->listen(QHostAddress::Any,1235);//监听 通过改变监听密码来使各个接收之间不发生冲突
+=======
+    mTcpServer->listen(QHostAddress::Any,1235);//监听
+>>>>>>> 006607df4136803cafd392086a2f1df4879a5fea
 
     ui->label->setText("Disconnected:");//刚开始没有连接的时候
 }
@@ -60,6 +64,7 @@ void MainWindow2::on_pushButton_clicked()
      mSocket->write(ui->lineEdit->text().toLatin1());
 
 }
+<<<<<<< HEAD
 
 void MainWindow2::on_pushButton_2_clicked()
 {
@@ -70,3 +75,5 @@ void MainWindow2::on_pushButton_3_clicked()
 {
      mSocket->write(ui->lineEdit_3->text().toLatin1());
 }
+=======
+>>>>>>> 006607df4136803cafd392086a2f1df4879a5fea

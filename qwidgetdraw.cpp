@@ -85,7 +85,11 @@ QWidgetDraw::QWidgetDraw(QWidget *parent) : QWidget(parent)
     //connect(timer, &QTimer::timeout,this, &QWidgetDraw::sendData);
     connect(this, &QWidgetDraw::rxDataSignal, this, &QWidgetDraw::refreshFromData);
 
+<<<<<<< HEAD
     timer->start(50);//单位是ms
+=======
+    timer->start(10);//单位是ms
+>>>>>>> 006607df4136803cafd392086a2f1df4879a5fea
 }
 
 void QWidgetDraw::drawEcg(int ecgData)
